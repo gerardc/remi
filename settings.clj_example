@@ -1,0 +1,6 @@
+{
+ :zookeeper {:endpoint "myzookeeperserver.com:2181"
+             :namespace "parent-node"}
+ :riak {:http_endpoint "http://myriakserver.com/riak"
+        :http_basic ["admin" "a strong password"]}
+ }
